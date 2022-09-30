@@ -11,7 +11,7 @@ function Create() {
 
     return (
         <div className='create-container'>
-                <h1>Creating Your Event</h1>
+                <h1>Creating Your <span className='text-gradient'>Event</span></h1>
                 <div className='form'>
                     <div id='form-row'>
                         <label for='name'>Event Name</label>
