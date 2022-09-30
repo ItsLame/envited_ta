@@ -1,13 +1,15 @@
-import React, { Component } from 'react';
+import React, { useEffect } from 'react';
 
-class Create extends Component {
-    render() {
-        return (
-            <div>
-                <h1>heyCreate</h1>
-            </div>
-        );
-    }
+function Create() {
+    useEffect(() => {
+        document.title = 'Creating Event'
+    });
+
+    return (
+        <div>
+            <h1>heyCreate</h1>
+        </div>
+    );
 }
 
 export default Create;

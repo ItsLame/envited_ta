@@ -1,0 +1,21 @@
+@import '../../assets/colors.css';
+
+body {
+    background-color: var(--s3);
+    margin: 100px;
+    font-family: 'Helvetica';
+}
+
+h1 {
+    color: var(--p1);
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-gradient {
+    background: var(--purple-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
