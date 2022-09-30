@@ -12,7 +12,6 @@ function Create() {
     return (
         <div className='create-container'>
                 <h1>Creating Your Event</h1>
-                {/* <p>Hosted by <span id='bold'>Elysia</span></p> */}
                 <div className='form'>
                     <div id='form-row'>
                         <label for='name'>Event Name</label>

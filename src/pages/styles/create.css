@@ -5,6 +5,10 @@
     align-items: center;
 }
 
+.create-container h1 {
+    font-size: 3em;
+}
+
 input {
     border-width: 0;
     border-radius: 5px;
